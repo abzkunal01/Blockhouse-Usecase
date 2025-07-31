@@ -1,0 +1,100 @@
+=== SLIPPAGE ANALYSIS RESULTS ===
+
+Loading market data...
+Processing CRWV...
+  Loaded 1,882,484 records for CRWV
+Processing FROG...
+  Loaded 589,053 records for FROG
+Processing SOUN...
+  Loaded 5,505,097 records for SOUN
+
+============================================================
+ANALYZING CRWV
+============================================================
+Generating impact data for CRWV...
+Fitting impact models for CRWV...
+Evaluating models for CRWV...
+
+Model Performance for CRWV:
+--------------------------------------------------
+buy_linear           R² = 0.3561
+buy_sqrt             R² = 0.3604
+buy_power            R² = 0.3625
+buy_quadratic        R² = 0.3662
+sell_linear          R² = 0.3595
+sell_sqrt            R² = 0.3679
+sell_power           R² = 0.3707
+sell_quadratic       R² = 0.3755
+
+Best buy model: buy_quadratic (R² = 0.3662)
+Best sell model: sell_quadratic (R² = 0.3755)
+
+============================================================
+ANALYZING FROG
+============================================================
+Generating impact data for FROG...
+Fitting impact models for FROG...
+Evaluating models for FROG...
+
+Model Performance for FROG:
+--------------------------------------------------
+buy_linear           R² = 0.3421
+buy_sqrt             R² = 0.3603
+buy_power            R² = 0.3653
+buy_quadratic        R² = 0.3831
+sell_linear          R² = 0.3346
+sell_sqrt            R² = 0.3550
+sell_power           R² = 0.3600
+sell_quadratic       R² = 0.3789
+
+Best buy model: buy_quadratic (R² = 0.3831)
+Best sell model: sell_quadratic (R² = 0.3789)
+
+============================================================
+ANALYZING SOUN
+============================================================
+Generating impact data for SOUN...
+Fitting impact models for SOUN...
+Evaluating models for SOUN...
+
+Model Performance for SOUN:
+--------------------------------------------------
+buy_linear           R² = 0.7409
+buy_sqrt             R² = 0.7545
+buy_power            R² = 0.7581
+buy_quadratic        R² = 0.7580
+sell_linear          R² = 0.7234
+sell_sqrt            R² = 0.7370
+sell_power           R² = 0.7407
+sell_quadratic       R² = 0.7407
+
+Best buy model: buy_power (R² = 0.7581)
+Best sell model: sell_quadratic (R² = 0.7407)
+
+=== KEY FINDINGS ===
+
+1. **Model Performance Ranking**:
+   - SOUN: Highest R² values (75.8% for buy, 74.1% for sell)
+   - FROG: Medium R² values (38.3% for buy, 37.9% for sell)
+   - CRWV: Lower R² values (36.6% for buy, 37.6% for sell)
+
+2. **Best Models by Stock**:
+   - CRWV: Quadratic model for both buy and sell
+   - FROG: Quadratic model for both buy and sell
+   - SOUN: Power model for buy, Quadratic model for sell
+
+3. **Data Volume**:
+   - SOUN: 5,505,097 records (highest activity)
+   - CRWV: 1,882,484 records
+   - FROG: 589,053 records (lowest activity)
+
+4. **Impact Function Insights**:
+   - Non-linear models consistently outperform linear models
+   - Quadratic models capture both linear and non-linear effects
+   - Stock-specific parameters reflect different liquidity characteristics
+   - SOUN shows the most predictable impact patterns
+
+=== GENERATED FILES ===
+- CRWV_impact_analysis.png
+- FROG_impact_analysis.png
+- SOUN_impact_analysis.png 

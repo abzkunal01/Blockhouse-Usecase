@@ -1,0 +1,211 @@
+=== COMPREHENSIVE MARKET DATA ANALYSIS RESULTS ===
+
+============================================================
+ANALYZING CRWV
+============================================================
+Loading and transforming CRWV data...
+  Processing CRWV_2025-04-30 00:00:00+00:00.csv...
+  Processing CRWV_2025-05-01 00:00:00+00:00.csv...
+  Processing CRWV_2025-05-02 00:00:00+00:00.csv...
+  Cleaning data...
+    Removed 0 duplicate rows
+    Missing values: 0 total
+    Final clean dataset: 268,426 rows
+  Creating derived features...
+  Loaded 268,426 records for CRWV
+
+=== Market Structure Analysis for CRWV ===
+Data Period: 2025-04-30 to 2025-05-02
+Total Records: 268,426
+Trading Days: 3
+
+Price Statistics:
+  Mid Price - Mean: $46.73
+  Mid Price - Std: $3.22
+  Mid Price - Range: $39.49 - $51.81
+
+Spread Analysis:
+  Average Spread: $0.0732
+  Spread in BPS: 15.85
+  Spread Std: $0.0520
+
+Order Book Depth:
+  Average Bid Depth: 1,704 shares
+  Average Ask Depth: 1,775 shares
+  Total Depth: 3,479 shares
+
+Event Analysis:
+  A: 120,840 (45.0%)
+  C: 105,137 (39.2%)
+  T: 42,449 (15.8%)
+
+=== Order Book Dynamics Analysis for CRWV ===
+
+Price Level Depth Analysis:
+  Level 0: Bid=136, Ask=140, Ratio=0.97
+  Level 1: Bid=144, Ask=143, Ratio=1.01
+  Level 2: Bid=163, Ask=150, Ratio=1.09
+  Level 3: Bid=171, Ask=161, Ratio=1.06
+  Level 4: Bid=177, Ask=167, Ratio=1.06
+
+Spread Dynamics:
+  Spread volatility: 11.59 BPS
+  Spread skewness: 2.422
+  Spread kurtosis: 13.939
+
+Depth Dynamics:
+  Depth volatility: 1800 shares
+  Depth skewness: 1.308
+  Depth kurtosis: 2.526
+
+Correlation Matrix:
+                   spread_bps  total_depth  bid_ask_imbalance  mid_price
+spread_bps              1.000        0.042              0.024     -0.215
+total_depth             0.042        1.000             -0.141     -0.062
+bid_ask_imbalance       0.024       -0.141              1.000     -0.014
+mid_price              -0.215       -0.062             -0.014      1.000
+
+============================================================
+ANALYZING FROG
+============================================================
+Loading and transforming FROG data...
+  Processing FROG_2025-04-30 00:00:00+00:00.csv...
+  Processing FROG_2025-05-01 00:00:00+00:00.csv...
+  Processing FROG_2025-05-02 00:00:00+00:00.csv...
+  Cleaning data...
+    Removed 0 duplicate rows
+    Missing values: 0 total
+    Final clean dataset: 55,901 rows
+  Creating derived features...
+  Loaded 55,901 records for FROG
+
+=== Market Structure Analysis for FROG ===
+Data Period: 2025-04-30 to 2025-05-02
+Total Records: 55,901
+Trading Days: 3
+
+Price Statistics:
+  Mid Price - Mean: $34.36
+  Mid Price - Std: $0.77
+  Mid Price - Range: $32.30 - $35.59
+
+Spread Analysis:
+  Average Spread: $0.0512
+  Spread in BPS: 14.99
+  Spread Std: $0.0407
+
+Order Book Depth:
+  Average Bid Depth: 1,370 shares
+  Average Ask Depth: 1,403 shares
+  Total Depth: 2,773 shares
+
+Event Analysis:
+  A: 25,161 (45.0%)
+  C: 21,989 (39.3%)
+  T: 8,751 (15.7%)
+
+=== Order Book Dynamics Analysis for FROG ===
+
+Price Level Depth Analysis:
+  Level 0: Bid=124, Ask=107, Ratio=1.16
+  Level 1: Bid=150, Ask=123, Ratio=1.22
+  Level 2: Bid=150, Ask=129, Ratio=1.17
+  Level 3: Bid=141, Ask=135, Ratio=1.04
+  Level 4: Bid=132, Ask=147, Ratio=0.89
+
+Spread Dynamics:
+  Spread volatility: 12.22 BPS
+  Spread skewness: 6.140
+  Spread kurtosis: 85.544
+
+Depth Dynamics:
+  Depth volatility: 480 shares
+  Depth skewness: 0.301
+  Depth kurtosis: 0.394
+
+Correlation Matrix:
+                   spread_bps  total_depth  bid_ask_imbalance  mid_price
+spread_bps              1.000        0.052             -0.094     -0.248
+total_depth             0.052        1.000              0.066     -0.120
+bid_ask_imbalance      -0.094        0.066              1.000      0.219
+mid_price              -0.248       -0.120              0.219      1.000
+
+============================================================
+ANALYZING SOUN
+============================================================
+Loading and transforming SOUN data...
+  Processing SOUN_2025-04-30 00:00:00+00:00.csv...
+  Processing SOUN_2025-05-01 00:00:00+00:00.csv...
+  Processing SOUN_2025-05-02 00:00:00+00:00.csv...
+  Cleaning data...
+    Removed 0 duplicate rows
+    Missing values: 0 total
+    Final clean dataset: 455,127 rows
+  Creating derived features...
+  Loaded 455,127 records for SOUN
+
+=== Market Structure Analysis for SOUN ===
+Data Period: 2025-04-30 to 2025-05-02
+Total Records: 455,127
+Trading Days: 3
+
+Price Statistics:
+  Mid Price - Mean: $9.37
+  Mid Price - Std: $0.21
+  Mid Price - Range: $8.86 - $9.89
+
+Spread Analysis:
+  Average Spread: $0.0116
+  Spread in BPS: 12.43
+  Spread Std: $0.0040
+
+Order Book Depth:
+  Average Bid Depth: 35,066 shares
+  Average Ask Depth: 34,796 shares
+  Total Depth: 69,862 shares
+
+Event Analysis:
+  A: 213,788 (47.0%)
+  C: 211,590 (46.5%)
+  T: 29,749 (6.5%)
+
+=== Order Book Dynamics Analysis for SOUN ===
+
+Price Level Depth Analysis:
+  Level 0: Bid=2135, Ask=1825, Ratio=1.17
+  Level 1: Bid=4626, Ask=3979, Ratio=1.16
+  Level 2: Bid=5003, Ask=4385, Ratio=1.14
+  Level 3: Bid=4954, Ask=4421, Ratio=1.12
+  Level 4: Bid=4830, Ask=4463, Ratio=1.08
+
+Spread Dynamics:
+  Spread volatility: 4.26 BPS
+  Spread skewness: 2.856
+  Spread kurtosis: 16.368
+
+Depth Dynamics:
+  Depth volatility: 17601 shares
+  Depth skewness: 0.428
+  Depth kurtosis: 0.925
+
+Correlation Matrix:
+                   spread_bps  total_depth  bid_ask_imbalance  mid_price
+spread_bps              1.000       -0.159              0.014     -0.049
+total_depth            -0.159        1.000             -0.066      0.263
+bid_ask_imbalance       0.014       -0.066              1.000     -0.399
+mid_price              -0.049        0.263             -0.399      1.000
+
+=== SUMMARY COMPARISON ACROSS SYMBOLS ===
+
+Summary Statistics:
+  Symbol  Records  Avg_Price  Price_Vol  Avg_Spread_BPS  Spread_Vol  Avg_Depth  Depth_Vol  Imbalance_Mean  Imbalance_Vol
+0   CRWV   268426     46.731      3.220          15.850      11.590     3479.0    1799.640           0.010          0.414
+1   FROG    55901     34.357      0.770          14.990      12.220     2773.0     480.231          -0.014          0.198
+2   SOUN   455127      9.369      0.210          12.430       4.260    69862.0   17601.311           0.007          0.177
+
+=== ANALYSIS COMPLETE ===
+Generated files:
+- CRWV_comprehensive_analysis.png
+- FROG_comprehensive_analysis.png
+- SOUN_comprehensive_analysis.png
+- symbol_comparison_summary.png 
