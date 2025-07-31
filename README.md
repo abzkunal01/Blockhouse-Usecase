@@ -162,6 +162,52 @@ This provides:
 - Equal Allocation: $329.12 total impact
 - **Savings: 25.3%**
 
+### Comprehensive Analysis Results
+
+**Market Microstructure Analysis**
+
+**Data Volume & Activity:**
+- **SOUN**: 5.5M records (highest activity) - Most liquid stock
+- **CRWV**: 1.9M records (medium activity) - Moderate liquidity  
+- **FROG**: 589K records (lowest activity) - Least liquid stock
+
+**Price Characteristics:**
+- **CRWV**: $46.73 average price, $3.22 volatility (highest price volatility)
+- **FROG**: $34.36 average price, $0.77 volatility (lowest price volatility)
+- **SOUN**: $9.37 average price, $0.21 volatility (most stable price)
+
+**Order Book Depth:**
+- **SOUN**: 69,862 shares average depth (highest liquidity)
+- **CRWV**: 3,479 shares average depth (moderate liquidity)
+- **FROG**: 2,773 shares average depth (lowest liquidity)
+
+**Impact Function Modeling Results**
+
+**Model Performance Ranking (R² Values):**
+- **SOUN**: 75.8% buy, 74.1% sell (highest predictability)
+- **FROG**: 38.3% buy, 37.9% sell (medium predictability)
+- **CRWV**: 36.6% buy, 37.6% sell (lower predictability)
+
+**Best Impact Models:**
+- **CRWV**: Quadratic model for both buy and sell orders
+- **FROG**: Quadratic model for both buy and sell orders  
+- **SOUN**: Power model for buy orders, Quadratic model for sell orders
+
+**Critical Insights**
+
+1. **Non-Linear Impact Dominance**: Quadratic models consistently outperform linear models by 2-5% across all stocks, indicating significant non-linear market impact effects.
+
+2. **Liquidity-Impact Relationship**: Higher liquidity stocks (SOUN) show more predictable impact patterns, while lower liquidity stocks (FROG, CRWV) exhibit greater impact uncertainty.
+
+3. **Spread Analysis**: 
+   - SOUN: 12.43 BPS average spread (tightest)
+   - FROG: 14.99 BPS average spread (moderate)
+   - CRWV: 15.85 BPS average spread (widest)
+
+4. **Market Efficiency**: SOUN demonstrates the most efficient market with tight spreads, high depth, and predictable impact patterns, making it ideal for algorithmic trading strategies.
+
+5. **Risk Assessment**: Lower liquidity stocks require more sophisticated impact modeling and larger safety buffers due to higher spread volatility and impact uncertainty.
+
 ## Mathematical Framework
 
 ### Problem Formulation
