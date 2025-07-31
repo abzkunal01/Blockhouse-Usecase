@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 Slippage Analysis and Optimal Order Execution Strategy
-Blockhouse Work Trial Task
+Blockhouse Usecase
 
 This script addresses the two main questions:
 1. How to model the temporary impact function gt(x)

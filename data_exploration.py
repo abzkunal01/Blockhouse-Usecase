@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 Comprehensive Data Exploration and Analysis
-Blockhouse Work Trial Task
+Blockhouse Usecase
 
 This script demonstrates deep understanding of:
 1. Data loading and transformation

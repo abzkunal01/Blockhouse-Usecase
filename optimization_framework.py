@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 Optimal Order Execution Framework
-Blockhouse Work Trial Task - Question 2
+Blockhouse Usecase - Question 2
 
 This script implements the mathematical framework for optimal order allocation
 to minimize total temporary impact (slippage) across multiple trading periods.

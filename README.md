@@ -267,4 +267,4 @@ Subject to: Σ(xi) = S
 
 ## License
 
-This project is created for the Blockhouse Work Trial Task. Please refer to the original problem statement for usage terms and conditions. 
+This project is created for the Blockhouse Usecase. Please refer to the original problem statement for usage terms and conditions. 
